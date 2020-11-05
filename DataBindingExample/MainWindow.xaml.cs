@@ -31,9 +31,9 @@ namespace DataBindingExample
                 Date = new DateTime(2020, 11, 04)
 
             };
-            nombretextbox.Text =evento.Title;
-            fechadatepicker.SelectedDate = evento.Date;
-
+            //nombretextbox.Text =evento.Title;
+            //fechadatepicker.SelectedDate = evento.Date;
+            DataContext = evento;
 
         }
 
